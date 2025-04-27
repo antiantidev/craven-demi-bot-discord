@@ -1,0 +1,7 @@
+{
+  "aiclear": {
+    "no_permission": "Bạn không có quyền sử dụng lệnh này.",
+    "cleared": "Toàn bộ lịch sử trò chuyện của bạn với AI đã được xóa! 🧹",
+    "no_history": "Có vẻ như bạn chưa từng nói chuyện với AI!"
+  }
+}

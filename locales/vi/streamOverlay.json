@@ -1,0 +1,7 @@
+{
+  "streamOverlay": {
+    "not_registered": "🚫 Server chưa được đăng ký trong hệ thống. Vui lòng mời bot lại hoặc liên hệ admin 💬",
+    "no_permission": "🔒 Server của bạn chưa được cấp quyền sử dụng lệnh này. Vui lòng liên hệ admin để mở quyền 💬",
+    "choose_starter": "Chọn Pokémon khởi đầu của bạn!"
+  }
+}

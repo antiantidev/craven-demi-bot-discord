@@ -1,0 +1,7 @@
+{
+  "aiclear": {
+    "no_permission": "You don't have permission to use this command.",
+    "cleared": "Your entire chat history with the AI has been cleared! 🧹",
+    "no_history": "Looks like you haven't talked to the AI yet!"
+  }
+}

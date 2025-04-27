@@ -1,0 +1,7 @@
+{
+  "airevoke": {
+    "not_owner": "Chỉ chủ sở hữu bot mới có thể sử dụng lệnh này.",
+    "revoked": "Đã thu hồi quyền AI từ {{type}} với ID `{{id}}`.",
+    "not_found": "Không tìm thấy quyền nào để thu hồi."
+  }
+}

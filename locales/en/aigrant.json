@@ -1,0 +1,7 @@
+{
+  "aigrant": {
+    "not_owner": "Only the bot owner can use this command.",
+    "already_granted": "This target already has permission to use the AI command.",
+    "granted": "AI permission granted to **{{type}}** with ID `{{id}}`."
+  }
+}

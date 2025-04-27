@@ -1,0 +1,7 @@
+{
+  "airevoke": {
+    "not_owner": "Only the bot owner can use this command.",
+    "revoked": "Revoked AI access from {{type}} with ID `{{id}}`.",
+    "not_found": "No permission entry found to revoke."
+  }
+}

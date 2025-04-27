@@ -1,0 +1,7 @@
+{
+  "aigrant": {
+    "not_owner": "Chỉ chủ sở hữu bot mới có thể sử dụng lệnh này.",
+    "already_granted": "Đối tượng này đã có quyền sử dụng lệnh AI.",
+    "granted": "Quyền AI đã được cấp cho **{{type}}** với ID `{{id}}`."
+  }
+}

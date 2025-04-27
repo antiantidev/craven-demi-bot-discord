@@ -1,0 +1,7 @@
+{
+  "streamOverlay": {
+    "not_registered": "🚫 This server is not registered in the system. Please invite the bot again or contact the admin 💬",
+    "no_permission": "🔒 Your server does not have permission to use this command. Please contact the admin to enable it 💬",
+    "choose_starter": "Choose your starter!"
+  }
+}
