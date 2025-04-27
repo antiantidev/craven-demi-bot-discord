@@ -1,0 +1,6 @@
+{
+  "set_language": {
+    "no_permission": "❌ You must have administrator permission to set the server language.",
+    "success": "🌐 The server language has been set to: {{language}}."
+  }
+}

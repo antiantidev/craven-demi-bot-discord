@@ -1,0 +1,6 @@
+{
+  "set_language": {
+    "no_permission": "❌ Anh cần có quyền quản trị để đổi ngôn ngữ server nè~ 😳",
+    "success": "🌐 Ngôn ngữ của server đã được đặt thành: {{language}}."
+  }
+}

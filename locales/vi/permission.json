@@ -1,0 +1,6 @@
+{
+  "not_owner": "❌ Anh hông phải là chủ bot nên hông được làm điều này nha~ 😤",
+  "guild_not_found": "❌ Không tìm thấy server với ID `{{guildId}}` trong database.",
+  "success": "✅ Đã cấp quyền thành công cho server {{guildName}} (ID: {{guildId}}).",
+  "error": "❗ Có lỗi xảy ra khi cấp quyền."
+}

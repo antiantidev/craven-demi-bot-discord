@@ -1,0 +1,8 @@
+{
+  "grant_permission": {
+    "not_owner": "You are not the owner of the bot.",
+    "guild_not_found": "Guild with ID {{guildId}} not found.",
+    "success": "Permission granted for guild {{guildName}} (ID: {{guildId}}).",
+    "error": "An error occurred while granting permission."
+  }
+}

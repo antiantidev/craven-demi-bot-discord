@@ -1,0 +1,8 @@
+{
+  "revoke_permission": {
+    "not_owner": "❌ Anh hông phải là chủ bot, hổng được dùng lệnh này đâu~ 😤",
+    "guild_not_found": "❌ Không tìm thấy server với ID `{{guildId}}` trong database.",
+    "success": "🔒 Đã thu hồi quyền thành công của server `{{guildName}} ({{guildId}})`.",
+    "error": "❗ Có lỗi xảy ra khi thu hồi quyền."
+  }
+}

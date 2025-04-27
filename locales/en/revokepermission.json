@@ -1,0 +1,8 @@
+{
+  "revoke_permission": {
+    "not_owner": "❌ You are not the bot owner, so you can't use this command~ 😤",
+    "guild_not_found": "❌ No server found with ID `{{guildId}}` in the database.",
+    "success": "🔒 Successfully revoked permission for `{{guildName}} ({{guildId}})`.",
+    "error": "❗ An error occurred while revoking permission."
+  }
+}
