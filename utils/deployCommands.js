@@ -2,7 +2,6 @@
 const { REST, Routes } = require("discord.js");
 const fs = require("node:fs");
 const path = require("node:path");
-const { clientId, guildId, token } = require("../config.json");
 
 async function deployCommands() {
   const globalCommands = [];
@@ -31,12 +30,12 @@ async function deployCommands() {
     }
   }
 
-  const rest = new REST().setToken(token);
+  const rest = new REST().setToken(process.env.TOKEN);
 
   try {
     if (globalCommands.length > 0) {
       console.log(`🌍 Deploying ${globalCommands.length} global commands...`);
-      await rest.put(Routes.applicationCommands(clientId), {
+      await rest.put(Routes.applicationCommands(process.env.CLIENT_ID), {
         body: globalCommands,
       });
       console.log(`🟢 Deployed global commands.`);
@@ -44,9 +43,15 @@ async function deployCommands() {
 
     if (guildCommands.length > 0) {
       console.log(`🌍 Deploying ${guildCommands.length} guild commands...`);
-      await rest.put(Routes.applicationGuildCommands(clientId, guildId), {
-        body: guildCommands,
-      });
+      await rest.put(
+        Routes.applicationGuildCommands(
+          process.env.CLIENT_ID,
+          process.env.GUILD_ID,
+        ),
+        {
+          body: guildCommands,
+        },
+      );
       console.log(`🟢 Deployed guild commands.`);
     }
   } catch (error) {
